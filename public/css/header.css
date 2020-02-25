@@ -1,0 +1,43 @@
+.nav-link{
+    color:black !important;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color:orangered !important;
+}
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+.active{
+    color: orangered !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        z-index: 500;
+    }
+    .scrolling {
+        white-space: nowrap;
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch;
+    }
+    .scrollable-menu {
+        height: auto;
+        /* max-height: 500px; */
+        overflow-x: hidden;
+    }
+
+    .hovereffect .overlay{
+        height: 157px !important ;
+    }
+}
+@media screen and (min-width: 1001px) {
+     .mobile{
+        display: none;
+    }
+}
