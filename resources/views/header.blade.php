@@ -21,7 +21,7 @@
     <body>
             <div class="pc">
                 <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" style="border-bottom:2px solid orangered;" >
-                    <a class="navbar-brand heade" style="text-decoration:none; outline: none; " href="{{ url('/') }}"> <img src="images/logo.jpg" alt=""  width="10%" class="rounded-circle img-fluid" > The Redeemed Christian Church of God <br> <h6 style="font-size:12px; margin-left:20%" >(Glory to Glory House)</h6 >  </a> 
+                    <a class="navbar-brand heade" style="text-decoration:none; outline: none; " href="{{ url('/') }}"> <img src="images/logo.jpg" alt=""  width="10%" class="rounded-circle img-fluid" > The Redeemed Christian Church of God <br> <h6 style="font-size:25px; margin-left:20%; font-weight:bold; color:orangered" >(Glory 2 Glory House)</h6 >  </a> 
                     @if (Route::has('login'))
                     <ul class="navbar-nav my-2 my-lg-0 ml-auto">                        
                             @auth
@@ -56,7 +56,7 @@
 
                             </li>
                             <li class="nav-item ">
-                                    <a class="nav-link " href="{{ url('/profile') }}">Profile</a>
+                                    <a class="nav-link " href="{{ url('/aboutUs') }}">About Us</a>
 
                             </li>
                             <li class="nav-item ">
@@ -92,7 +92,7 @@
                                         <a class="nav-link" href="{{ url('/gallery') }}">Gallery</a>
                                     </li>                                
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ url('/profile') }}">Profile</a>
+                                        <a class="nav-link" href="{{ url('/aboutUs') }}">About Us</a>
                                     </li>                                
                                     <li class="nav-item">
                                         <a class="nav-link" href="#contact">Contact Us</a>
