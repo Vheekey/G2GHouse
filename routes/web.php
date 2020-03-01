@@ -21,6 +21,9 @@ Route::get('/admin', function () {
 Route::get('/notifications', function () {
     return view('notifications');
 });
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+});
 Route::get('/programme', function () {
     return view('programme');
 });
